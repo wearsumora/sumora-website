@@ -1,1 +1,0 @@
-Upload index.html, style.css, script.js and the assets folder to your GitHub repository.
