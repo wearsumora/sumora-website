@@ -25,10 +25,27 @@ nav{position:relative;z-index:3;display:flex;justify-content:space-between;align
 .guardians{padding:90px 6vw;background:#0a0a0a}
 .guardians>.section-label{text-align:center}
 .guardian-grid{display:grid;grid-template-columns:repeat(4,1fr);max-width:1200px;margin:35px auto 0;border-top:1px solid #222;border-bottom:1px solid #222}
-.guardian-grid article{padding:48px 28px;border-right:1px solid #222}
+.guardian-grid article{
+  display:flex;
+  justify-content:space-between;
+  align-items:centre;
+  padding:48px 28px;
+  border-right:1px solid #222;
+  overflow:hidden;
+}
+.guardian-text{
+  display:flex;
+  flex-direction:column;
+}
+.guardian-icon{
+  width:60px;
+  height:60px;
+  object-fit:contain;
+  flex-shrink:0;
+}
 .guardian-grid article:last-child{border-right:0}
 .guardian-grid span{color:#0a66ff;font-size:.72rem;letter-spacing:.2em}
-.guardian-grid h3{text-transform:uppercase;letter-spacing:.08em;margin:42px 0 8px}
+.guardian-grid h3{text-transform:uppercase;letter-spacing:.08em;margin:4px 0 8px}
 .guardian-grid p{color:#8d8d8d;margin:0}
 footer{padding:70px 6vw 35px;text-align:center;border-top:1px solid #151515}
 .footer-logo{width:min(330px,70vw);height:auto}
@@ -67,26 +84,7 @@ footer{padding:70px 6vw 35px;text-align:center;border-top:1px solid #151515}
 }
 .guardian-grid article{
     display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:20px;
-    padding:28px;
-}
-.guardian-text{
-    text-align:left;
-}
-.guardian-icon{
-    width:80px !important;
-    height:80px !important;
-    max-width:80px !important;
-    max-height:80px !important;
-    object-fit:contain;
-    flex-shrink:0;
-    display:block;
-}
-.guardian-grid article{
-    display:flex;
-    justify-content:space-between;
+   
     align-items:center;
     padding:24px;
   overflow:hidden;
