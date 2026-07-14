@@ -28,7 +28,7 @@ nav{position:relative;z-index:3;display:flex;justify-content:space-between;align
 .guardian-grid article{
   display:flex;
   justify-content:space-between;
-  align-items:centre;
+  align-items:center;
   padding:48px 28px;
   border-right:1px solid #222;
   overflow:hidden;
