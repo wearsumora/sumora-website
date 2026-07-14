@@ -3,8 +3,8 @@ html{scroll-behavior:smooth}
 body{margin:0;background:#050505;color:#fff;font-family:Arial,Helvetica,sans-serif}
 .hero{min-height:100svh;position:relative;overflow:hidden}
 .slides,.slide,.shade{position:absolute;inset:0}
-.slide{background-position:center;background-size:cover;opacity:0;transform:scale(1.none);transition:opacity 1.2s ease,transform 6s ease}
-.slide.active{opacity:1;transform:none(1)}
+.slide{background-position:center;background-size:cover;opacity:0;transform:scale(1.25);transition:opacity 1.2s ease,transform 6s ease}
+.slide.active{opacity:1;transform:(1)}
 .shade{background:linear-gradient(90deg,rgba(0,0,0,.36),rgba(0,0,0,.08) 50%,rgba(0,0,0,.26)),linear-gradient(0deg,rgba(0,0,0,.70),transparent 48%,rgba(0,0,0,.18))}
 nav{position:relative;z-index:3;display:flex;justify-content:space-between;align-items:center;padding:28px 5vw}
 .brand{color:#fff;text-decoration:none;font-weight:800;letter-spacing:.45em;font-size:1.1rem}
