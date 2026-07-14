@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SUMORA — premium youth martial arts apparel. Built Through Character.">
+  <title>SUMORA | Built Through Character</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="top" aria-label="SUMORA Guardian Series">
+    <div class="slides" aria-hidden="true">
+      <div class="slide active tiger" style="background-image:url('assets/tiger.jpg')"></div>
+      <div class="slide bear" style="background-image:url('assets/bear.jpg')"></div>
+      <div class="slide jaguar" style="background-image:url('assets/jaguar.jpg')"></div>
+      <div class="slide eagle" style="background-image:url('assets/eagle.jpg')"></div>
+    </div>
+    <div class="shade"></div>
+
+    <nav>
+      <a class="brand" href="#top">SUMORA</a>
+      <a class="social-nav" href="#follow">Follow the journey</a>
+    </nav>
+
+    <div class="hero-copy">
+      <img class="hero-logo" src="assets/sumora-logo.png" alt="SUMORA — Built Through Character">
+      <p class="eyebrow">Premium Youth Martial Arts Apparel</p>
+      <p class="launch">Launching soon</p>
+      <a class="button" href="#guardians">Discover the Guardians</a>
+    </div>
+
+    <div class="dots" aria-label="Choose background">
+      <button class="dot active" aria-label="Show Tiger background"></button>
+      <button class="dot" aria-label="Show Bear background"></button>
+      <button class="dot" aria-label="Show Jaguar background"></button>
+      <button class="dot" aria-label="Show Eagle background"></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="mission">
+      <p class="section-label">Our mission</p>
+      <h2>Martial arts build more than athletes.<br>They build character.</h2>
+      <p>SUMORA creates premium performance apparel for the next generation of martial artists—designed to encourage courage, resilience, confidence and focus on and off the mat.</p>
+    </section>
+
+    <section id="guardians" class="guardians">
+      <p class="section-label">The Guardian Series</p>
+      <div class="guardian-grid">
+        <article><span>01</span><h3>Courage</h3><p>Tiger</p></article>
+        <article><span>02</span><h3>Resilience</h3><p>Bear</p></article>
+        <article><span>03</span><h3>Confidence</h3><p>Jaguar</p></article>
+        <article><span>04</span><h3>Focus</h3><p>Eagle</p></article>
+      </div>
+    </section>
+
+    <section class="coming">
+      <p class="section-label">Coming soon</p>
+      <h2>The first SUMORA collection is in development.</h2>
+      <p>Follow our journey as we bring the Guardian Series from concept to the mat.</p>
+    </section>
+  </main>
+
+  <footer id="follow">
+    <img class="footer-logo" src="assets/sumora-logo.png" alt="SUMORA — Built Through Character">
+    <div class="links">
+      <a href="https://www.instagram.com/wearsumora/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.tiktok.com/@wearsumora" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://www.facebook.com/wearsumora" target="_blank" rel="noopener">Facebook</a>
+    </div>
+    <p class="copyright">© 2026 SUMORA · www.sumora.uk</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
