@@ -65,26 +65,22 @@ footer{padding:70px 6vw 35px;text-align:center;border-top:1px solid #151515}
   html{scroll-behavior:auto}
   .slide{transition:none;transform:none}
 }
-<article>
-    <div class="guardian-text">
-        <span>01</span>
-        <h3>COURAGE</h3>
-        <p>Tiger</p>
-    </div>
-    <img src="assets/tiger.png" class="guardian-icon" alt="Tiger">
-</article>
-<article>
-    <div class="guardian-text">
-        <span>02</span>
-        <h3>RESILIENCE</h3>
-        <p>Bear</p>
-    </div>
-    <img src="assets/bear.png" class="guardian-icon" alt="Bear">
-</article>
-<article>
-    <div class="guardian-text">
-        <span>03</span>
-        <h3>CONFIDENCE</h3>
-        <p>Jaguar</p>
-    </div>
-    <img src="assets/jaguar.pn
+.guardian-grid article{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    padding:28px;
+}
+.guardian-text{
+    text-align:left;
+}
+.guardian-icon{
+    width:80px !important;
+    height:80px !important;
+    max-width:80px !important;
+    max-height:80px !important;
+    object-fit:contain;
+    flex-shrink:0;
+    display:block;
+}
