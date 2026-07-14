@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SUMORA premium youth martial arts apparel. Built Through Character. Launching soon." />
+  <title>SUMORA | Built Through Character</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="small-brand" href="#home" aria-label="SUMORA home">
+      <img src="logo.png" alt="SUMORA" />
+    </a>
+
+    <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#guardians">Guardians</a>
+      <a href="#mission">Our Mission</a>
+      <a href="#launch">Launching Soon</a>
+      <a href="#social">Follow Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-label="SUMORA Guardian slideshow">
+      <div class="slides" aria-hidden="true">
+        <div class="slide active" style="background-image:url('Tiger.png')"></div>
+        <div class="slide" style="background-image:url('Bear.png')"></div>
+        <div class="slide" style="background-image:url('Jaguar.png')"></div>
+        <div class="slide" style="background-image:url('Eagle.png')"></div>
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <img class="hero-logo" src="logo.png" alt="SUMORA — Built Through Character" />
+
+        <p class="launching-text">Launching Soon</p>
+        <p class="hero-intro">Premium youth martial arts apparel designed for performance, confidence and character.</p>
+
+        <a class="primary-button" href="#guardians">Meet the Guardians</a>
+      </div>
+
+      <div class="slide-controls" aria-label="Choose slideshow image">
+        <button class="slide-dot active" data-slide="0" aria-label="Show Tiger background"></button>
+        <button class="slide-dot" data-slide="1" aria-label="Show Bear background"></button>
+        <button class="slide-dot" data-slide="2" aria-label="Show Jaguar background"></button>
+        <button class="slide-dot" data-slide="3" aria-label="Show Eagle background"></button>
+      </div>
+
+      <a class="scroll-cue" href="#guardians" aria-label="Scroll to the Four Guardians">
+        <span>Discover</span>
+        <i></i>
+      </a>
+    </section>
+
+    <section class="section guardians-section" id="guardians">
+      <div class="section-heading">
+        <p class="eyebrow">Four Guardians. One Journey.</p>
+        <h2>The Four Guardians</h2>
+        <p>Each Guardian represents a quality developed through training, challenge and growth.</p>
+      </div>
+
+      <div class="guardian-grid">
+        <article class="guardian-card guardian-tiger">
+          <div class="guardian-shade"></div>
+          <div class="guardian-copy">
+            <span class="guardian-number">01</span>
+            <h3>Tiger</h3>
+            <strong>Courage</strong>
+            <p>Fear is natural. Courage is a choice.</p>
+          </div>
+        </article>
+
+        <article class="guardian-card guardian-bear">
+          <div class="guardian-shade"></div>
+          <div class="guardian-copy">
+            <span class="guardian-number">02</span>
+            <h3>Bear</h3>
+            <strong>Resilience</strong>
+            <p>Stand back up. Every time.</p>
+          </div>
+        </article>
+
+        <article class="guardian-card guardian-jaguar">
+          <div class="guardian-shade"></div>
+          <div class="guardian-copy">
+            <span class="guardian-number">03</span>
+            <h3>Jaguar</h3>
+            <strong>Confidence</strong>
+            <p>Believe before you achieve.</p>
+          </div>
+        </article>
+
+        <article class="guardian-card guardian-eagle">
+          <div class="guardian-shade"></div>
+          <div class="guardian-copy">
+            <span class="guardian-number">04</span>
+            <h3>Eagle</h3>
+            <strong>Focus</strong>
+            <p>Where attention goes, progress follows.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section mission-section" id="mission">
+      <div class="mission-panel">
+        <p class="eyebrow">Our Mission</p>
+        <h2>More Than Apparel</h2>
+
+        <p class="mission-statement">
+          SUMORA creates premium martial arts apparel for children and young people,
+          combining performance, comfort and bold design with the character qualities
+          built through training. Our purpose is to help young athletes feel strong,
+          confident and ready for every challenge—on and off the mat.
+        </p>
+
+        <div class="value-grid">
+          <div>
+            <span class="value-icon">01</span>
+            <strong>Premium Quality</strong>
+            <p>Comfortable performance wear made for movement.</p>
+          </div>
+          <div>
+            <span class="value-icon">02</span>
+            <strong>Performance Driven</strong>
+            <p>Designed for training, competition and progression.</p>
+          </div>
+          <div>
+            <span class="value-icon">03</span>
+            <strong>Built to Endure</strong>
+            <p>Created for demanding sessions and repeated wear.</p>
+          </div>
+          <div>
+            <span class="value-icon">04</span>
+            <strong>Purpose Led</strong>
+            <p>Character, confidence and ambition in every detail.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section launch-section" id="launch">
+      <div class="launch-panel">
+        <p class="eyebrow">The Journey Begins Soon</p>
+        <h2>Launching Soon</h2>
+        <p>Follow SUMORA for product previews, launch news and the story behind the Guardians.</p>
+
+        <div class="launch-buttons">
+          <a class="primary-button" href="mailto:hello@sumora.uk?subject=SUMORA%20Launch%20Updates">Join the Journey</a>
+          <a class="secondary-button" href="#social">Follow SUMORA</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="social">
+    <div class="footer-brand">
+      <img src="logo.png" alt="SUMORA" />
+    </div>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/wearsumora/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.tiktok.com/@wearsumora" target="_blank" rel="noopener noreferrer">TikTok</a>
+      <a href="https://www.facebook.com/wearsumora" target="_blank" rel="noopener noreferrer">Facebook</a>
+    </div>
+
+    <p class="copyright">© <span id="year"></span> SUMORA. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
