@@ -84,3 +84,23 @@ footer{padding:70px 6vw 35px;text-align:center;border-top:1px solid #151515}
     flex-shrink:0;
     display:block;
 }
+.guardian-grid article{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:24px;
+  overflow:hidden;
+}
+.guardian-text{
+    display:flex;
+    flex-direction:column;
+}
+.guardian-icon{
+    width:60px; !important;
+    height:60px; !important;
+   max-width:60px !important;
+    max-height:60px !important;
+    object-fit:contain;
+    display:block;
+    flex:none;
+}
