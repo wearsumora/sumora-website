@@ -13,7 +13,7 @@ function showSlide(i){
 
 function start(){
   clearInterval(timer);
-  timer=setInterval(()=>showSlide(index+1),5500);
+  timer=setInterval(()=>showSlide(index+1),3500);
 }
 
 dots.forEach((dot,i)=>{
